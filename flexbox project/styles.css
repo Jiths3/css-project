@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* learn what is box sizing */
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none ;
+    color: #3a3a3a;
+}
